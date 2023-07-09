@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: #F4F4F4;
+  background-color: antiquewhite;
 }
 
 .container {
-  background-color: #FFFFFF;
+  background-color: white;
   width: 70%;
   margin: auto;
   min-height: 100vh;
@@ -20,7 +20,6 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   margin: 30px;
-  color: #333333;
 }
 
 form {
@@ -38,27 +37,25 @@ button {
   outline: none;
   margin: 10px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: #EAEAEA;
-  color: #333333;
 }
 
 button {
-  background-color: #007BFF;
-  color: #FFFFFF;
+  background-color: rgb(50, 50, 50);
+  color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: rgb(61, 9, 156);
 }
 
 .task {
-  background-color: #F7F7F7;
+  background-color: rgb(247, 247, 247);
   font: 100 1.1rem sans-serif;
   padding: 30px;
   margin: 2vmax;
-  color: #555555;
+  color: rgba(0, 0, 0, 0.868);
   display: flex;
   align-items: center;
   transition: transform 0.3s ease;
@@ -69,7 +66,7 @@ button:hover {
 }
 
 .task span {
-  color: #888888;
+  color: rgba(0, 0, 0, 0.632);
 }
 
 .deleteBtn {
@@ -80,7 +77,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #DC3545;
+  background-color: crimson;
   transition: transform 0.3s ease;
 }
 
